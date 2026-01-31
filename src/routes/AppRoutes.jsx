@@ -10,7 +10,7 @@ import TradeEntry from "../pages/TradeEntry/TradeEntry";
 import Settings from "../pages/Settings/Settings";
 import BrokerCapital from "../pages/BrokerCapital/BrokerCapital";
 import DashboardControl from "../pages/DashboardControl/DashboardControl";
-import MySymbols from "../pages/settings/MySymbols";
+import MySymbols from "../pages/Settings/MySymbols";
 
 /* ===== UPGRADE ===== */
 import UpgradePlan from "../pages/UpgradePlan";
