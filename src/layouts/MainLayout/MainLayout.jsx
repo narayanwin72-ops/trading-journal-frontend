@@ -1,4 +1,4 @@
-import Sidebar from "../../components/Sidebar/Sidebar";
+import Sidebar from "../../components/sidebar/Sidebar";
 import Topbar from "../../components/Topbar/Topbar";
 import "./MainLayout.css";
 
