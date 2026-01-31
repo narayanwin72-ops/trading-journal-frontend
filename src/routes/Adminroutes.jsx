@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import AdminLayout from "../layouts/AdminLayout";
-import AdminLogin from "../pages/admin/AdminLogin";
+import AdminLogin from "../pages/admin/adminlogin";
 import SymbolMaster from "../pages/admin/SymbolMaster";
 import AdminPlans from "../pages/admin/AdminPlans";
 import AdminPlanVariants from "../pages/admin/AdminPlanVariants";
@@ -113,3 +113,4 @@ export default function AdminRoutes() {
     </Routes>
   );
 }
+
