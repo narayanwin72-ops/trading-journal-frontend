@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import MainLayout from "../layouts/MainLayout/MainLayout";
 import AppRoutes from "../routes/AppRoutes";
-import AdminRoutes from "../routes/adminRoutes";
+import AdminRoutes from "../routes/AdminRoutes";
 
 /* USER AUTH */
 import Login from "../pages/auth/Login";
