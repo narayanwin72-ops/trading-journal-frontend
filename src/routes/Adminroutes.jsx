@@ -1,14 +1,14 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import AdminLayout from "../layouts/AdminLayout";
-import AdminLogin from "../pages/admin/adminlogin";
-import SymbolMaster from "../pages/admin/SymbolMaster";
-import AdminPlans from "../pages/admin/AdminPlans";
-import AdminPlanVariants from "../pages/admin/AdminPlanVariants";
-import AdminUserLog from "../pages/admin/AdminUserLog";
-import AdminTrialManagement from "../pages/admin/AdminTrialManagement";
-import TradeEntryControl from "../pages/admin/TradeEntryControl";
-import AdminTradeLogControl from "../pages/admin/AdminTradeLogControl";
-import DashboardControl from "../pages/admin/DashboardControl";
+import AdminLogin from "../pages/Admin/adminlogin";
+import SymbolMaster from "../pages/Admin/SymbolMaster";
+import AdminPlans from "../pages/Admin/AdminPlans";
+import AdminPlanVariants from "../pages/Admin/AdminPlanVariants";
+import AdminUserLog from "../pages/Admin/AdminUserLog";
+import AdminTrialManagement from "../pages/Admin/AdminTrialManagement";
+import TradeEntryControl from "../pages/Admin/TradeEntryControl";
+import AdminTradeLogControl from "../pages/Admin/AdminTradeLogControl";
+import DashboardControl from "../pages/Admin/DashboardControl";
 
 
 
@@ -113,4 +113,5 @@ export default function AdminRoutes() {
     </Routes>
   );
 }
+
 
