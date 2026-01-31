@@ -1,0 +1,27 @@
+.layout {
+  display: flex;
+  width: 100%;
+  height: 100vh;            /* 🔥 full screen fixed */
+  background: #f8fafc;
+  overflow: hidden;         /* 🔥 parent scroll বন্ধ */
+}
+
+/* ================= CONTENT ================= */
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;            /* 🔥 height lock */
+  overflow: hidden;         /* 🔥 topbar fixed রাখার জন্য */
+}
+
+/* ================= PAGE ================= */
+
+.page-container {
+  flex: 1;
+  padding: 24px;
+  width: 100%;
+  overflow-y: auto;         /* ✅ নিচে vertical scroll */
+  overflow-x: auto;         /* ✅ wide table হলে horizontal scroll */
+}

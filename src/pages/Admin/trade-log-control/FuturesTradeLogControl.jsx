@@ -1,0 +1,30 @@
+export default function FuturesTradeLogControl() {
+  return (
+    <div
+      style={{
+        padding: 20,
+        background: "#ffffff",
+        border: "1px solid #e5e7eb",
+        borderRadius: 8,
+      }}
+    >
+      <h3>Futures Intraday Trade Log Control</h3>
+
+      <p style={{ color: "#64748b", marginTop: 6 }}>
+        Configure filters, rows and exports for Futures Intraday trades.
+      </p>
+
+      <div style={box}>
+        🚧 Futures trade log settings will come here
+      </div>
+    </div>
+  );
+}
+
+const box = {
+  marginTop: 20,
+  padding: 16,
+  border: "1px dashed #cbd5e1",
+  borderRadius: 6,
+  background: "#f8fafc",
+};
